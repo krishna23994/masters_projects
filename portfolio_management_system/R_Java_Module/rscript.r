@@ -1,0 +1,7 @@
+library(lpSolve)
+library(lpSolveAPI)
+model1=read.lp("rcode.txt","lp")
+solve(model1)
+get.objective(model1)
+writeLines(toString(get.variables(model1)),'outputFile.txt')
+q()

@@ -1,0 +1,9 @@
+// KRISHNA MURALI cs610 7936 prp
+
+Bug Report for prp
+
+1.The algorithm doesn't employ efficient way to store the Huffman tree in the .huf file,as a result the intermediate file is larger than
+the input file.
+2.Algorithm doesn't support files greater than 1 MB and throws Heap memory error.
+3.henc7936.java needs to be compiled first before hdec7936.java file.
+3.For some larger files algorithm takes longer time for computation.
