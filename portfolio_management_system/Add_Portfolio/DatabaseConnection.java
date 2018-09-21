@@ -17,8 +17,8 @@ public class DatabaseConnection {
 	{	Connection conn=null;
 		try {
 		Class.forName("com.mysql.jdbc.Driver");
-		String url = "jdbc:mysql://sql2.njit.edu:3306/acd43";
-          conn= DriverManager.getConnection(url, "acd43", "ESYdm6O25");
+		String url = "jdbc:mysql://sql2.njit.edu:3306/database_name";
+          conn= DriverManager.getConnection(url, "username", "password");
           conn.setAutoCommit(true);
 		 } catch (ClassNotFoundException e) {
 				// TODO Auto-generated catch block
